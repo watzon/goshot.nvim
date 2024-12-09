@@ -8,6 +8,12 @@
 ---@field log table
 ---@field list_extend function
 ---@field tbl_filter function
+---@field tbl_deep_extend function
+---@field deepcopy function
+---@field json table
+---@field loop table
+---@field inspect function
+---@field tbl_map function
 vim = {}
 
 ---@class vim.log
